@@ -5,6 +5,7 @@ require('dotenv').config();
 const client = new Discord.Client();
 
 const prefix = (process.env.DISCORD_PREFIX);
+//Create an env. file and put your token there, u can watch guides on yt
 
 const fs = require('fs');
 
