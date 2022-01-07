@@ -4,7 +4,7 @@ module.exports = {
     description: 'let users report bugs',
     async execute(message, args, client, Discord){
         //the channel you want the bug-reports to be send to
-        const channel = client.channels.cache.get('868944815151259749')
+        const channel = client.channels.cache.get('PUT THE CHANNEL ID HERE')
 
          //look if there is a bug specified
         const query = args.join(' ');
