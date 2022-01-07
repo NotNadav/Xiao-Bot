@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#759194')
         .setTitle('**The Owner**')
         .setTimestamp()
-        .setDescription('```Nadav.#2783 היוצר שלי הוא```')
+        .setDescription('```PUT YOUR NAME AND TAG HERE```')
         .setFooter('הוא מוסר לכם לראות גוגו👀');
         message.channel.send(newEmbed);
     }
