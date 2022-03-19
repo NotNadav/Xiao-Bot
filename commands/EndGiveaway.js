@@ -7,7 +7,7 @@ module.exports = {
         accessableby: "Admins",
         aliases: ["end"], // To add custom aliases just type ["alias1", "alias2"].
     },
-    run: async (client, message, args) => {
+    execute: async (client, message, args) => {
 
         if (!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")) {
             return message.channel.send(':boom: You need to have the \`MANAGE_MESSAGES\` permissions to end giveaways.');
