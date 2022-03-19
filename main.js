@@ -74,6 +74,12 @@ client.on('message', message =>{
         client.commands.get('reminder').execute(client, message, args);
     }else if (command == 'gif'){
         client.commands.get('gif').execute(client, message, args, Discord);
+    }else if (command == 'StartGiveaway'){
+        client.commands.get('StartGiveaway').execute(client, message, args);
+    }else if (command == 'EndGiveaway'){
+        client.commands.get('EndGiveaway').execute(client, message, args)
+    }else if (command == 'RerollGiveaway'){
+        client.commands.get('RerollGiveaway').execute(client, message, args)
     }
 });    
 
