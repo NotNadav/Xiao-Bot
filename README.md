@@ -12,3 +12,4 @@ Use `*help` for all the commands
 
 - [CodeLyon server](https://discord.gg/lyon)
 - [github lmao](https://github.com)
+- [Invite Link of the bot](https://discord.com/oauth2/authorize?client_id=813016141860831272&scope=bot&permissions=27783097470)
