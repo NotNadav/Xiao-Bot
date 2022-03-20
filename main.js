@@ -77,9 +77,11 @@ client.on('message', message =>{
     }else if (command == 'StartGiveaway'){
         client.commands.get('StartGiveaway').execute(client, message, args);
     }else if (command == 'EndGiveaway'){
-        client.commands.get('EndGiveaway').execute(client, message, args)
+        client.commands.get('EndGiveaway').execute(client, message, args);
     }else if (command == 'RerollGiveaway'){
-        client.commands.get('RerollGiveaway').execute(client, message, args)
+        client.commands.get('RerollGiveaway').execute(client, message, args);
+    }else if (command == 'removerole'){
+        client.commands.get('removerole').execute(client,message,args);
     }
 });    
 
